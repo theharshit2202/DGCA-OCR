@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PDF Compliance Form</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>PDF → Compliance Classification</h1>
+      <p>Upload a PDF, auto-analyze with AI, then review/adjust the form below.</p>
+    </header>
+
+    <section class="upload">
+      <form id="uploadForm">
+        <label for="pdf">Select PDF</label>
+        <input type="file" id="pdf" name="pdf" accept="application/pdf" required />
+        <label class="checkbox">
+          <input type="checkbox" id="use_ocr" name="use_ocr" />
+          Use OCR (for scanned PDFs)
+        </label>
+        <button type="submit">Auto‑Analyze with AI</button>
+      </form>
+      <div id="status"></div>
+    </section>
+
+    <section class="form-section">
+      <h2>Checklist</h2>
+      <div id="formContainer"></div>
+      <div class="actions">
+        <button id="exportBtn">Export Results (JSON)</button>
+      </div>
+    </section>
+
+    <footer>
+      <small>Tip: Edit <code>app/config/fields.json</code> to change the checklist fields.</small>
+    </footer>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

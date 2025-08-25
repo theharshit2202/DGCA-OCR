@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "field_id": "req_1",
+      "field_name": "Applicant Identity Proof",
+      "status": "Information not present",
+      "page": 1,
+      "section": null
+    },
+    {
+      "field_id": "req_2",
+      "field_name": "Equipment Specifications",
+      "status": "Information not present",
+      "page": 1,
+      "section": null
+    },
+    {
+      "field_id": "req_3",
+      "field_name": "Training/Certification Details",
+      "status": "Information not present",
+      "page": null,
+      "section": null
+    },
+    {
+      "field_id": "req_4",
+      "field_name": "Compliance with DGCA Guidelines",
+      "status": "Information not present",
+      "page": null,
+      "section": null
+    },
+    {
+      "field_id": "req_5",
+      "field_name": "Maintenance Logs / Service History",
+      "status": "Information not present",
+      "page": null,
+      "section": null
+    },
+    {
+      "field_id": "lic_1",
+      "field_name": "LIC Confirmation - Payee Name",
+      "status": "Information not present",
+      "page": null,
+      "section": null
+    },
+    {
+      "field_id": "lic_2",
+      "field_name": "LIC Confirmation - To Whom Payment Made",
+      "status": "Satisfactory",
+      "page": 1,
+      "section": "Paytm confirmation message"
+    },
+    {
+      "field_id": "lic_3",
+      "field_name": "LIC Confirmation - Payment Date",
+      "status": "Satisfactory",
+      "page": 1,
+      "section": "The Online Premium Payment towards your LIC policy was successfully processed with the transaction details as shown below."
+    },
+    {
+      "field_id": "lic_4",
+      "field_name": "LIC Confirmation - Payment Mode",
+      "status": "Information not present",
+      "page": null,
+      "section": null
+    },
+    {
+      "field_id": "lic_5",
+      "field_name": "LIC Confirmation - Policy Number",
+      "status": "Information not present",
+      "page": 1,
+      "section": null
+    },
+    {
+      "field_id": "lic_6",
+      "field_name": "LIC Confirmation - Payment Status (Successful/Unsuccessful)",
+      "status": "Satisfactory",
+      "page": 1,
+      "section": "Beginning of payment confirmation details"
+    }
+  ]
+}

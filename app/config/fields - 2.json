@@ -1,0 +1,46 @@
+[
+  {
+    "id": "req_1",
+    "name": "Applicant Identity Proof"
+  },
+  {
+    "id": "req_2",
+    "name": "Equipment Specifications"
+  },
+  {
+    "id": "req_3",
+    "name": "Training/Certification Details"
+  },
+  {
+    "id": "req_4",
+    "name": "Compliance with DGCA Guidelines"
+  },
+  {
+    "id": "req_5",
+    "name": "Maintenance Logs / Service History"
+  }
+  {
+    "id": "lic_1",
+    "name": "LIC Confirmation - Payee Name"
+  },
+  {
+    "id": "lic_2",
+    "name": "LIC Confirmation - To Whom Payment Made"
+  },
+  {
+    "id": "lic_3",
+    "name": "LIC Confirmation - Payment Date"
+  },
+  {
+    "id": "lic_4",
+    "name": "LIC Confirmation - Payment Mode"
+  },
+  {
+    "id": "lic_5",
+    "name": "LIC Confirmation - Policy Number"
+  },
+  {
+    "id": "lic_6",
+    "name": "LIC Confirmation - Payment Status (Successful/Unsuccessful)"
+  }
+]

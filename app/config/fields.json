@@ -1,0 +1,78 @@
+[
+  {
+    "id": "req_1",
+    "name": "Registration Mark"
+  },
+  {
+    "id": "req_2",
+    "name": "Manufacturer"
+  },
+  {
+    "id": "req_3",
+    "name": "Serial Number"
+  },
+  {
+    "id": "req_4",
+    "name": "Aircraft Type"
+  },
+  {
+    "id": "req_5",
+    "name": "Engine Type"
+  },
+  {
+    "id": "req_6",
+    "name": "Certificate Number"
+  },
+  {
+    "id": "req_7",
+    "name": "Owner Name"
+  },
+  {
+    "id": "req_8",
+    "name": "Owner Address"
+  },
+  {
+    "id": "req_9",
+    "name": "Date of Registration"
+  },
+  {
+    "id": "req_10",
+    "name": "Airworthiness Date"
+  },
+  {
+    "id": "req_11",
+    "name": "Maximum Takeoff Weight"
+  },
+  {
+    "id": "req_12",
+    "name": "Maximum Landing Weight"
+  },
+  {
+    "id": "req_13",
+    "name": "Maximum Range"
+  },
+  {
+    "id": "req_14",
+    "name": "Cruise Speed"
+  },
+  {
+    "id": "req_15",
+    "name": "Service Ceiling"
+  },
+  {
+    "id": "req_16",
+    "name": "Operator Name"
+  },
+  {
+    "id": "req_17",
+    "name": "Operator Address"
+  },
+  {
+    "id": "req_18",
+    "name": "Operating Certificate"
+  },
+  {
+    "id": "req_19",
+    "name": "Base Airport"
+  }
+]
