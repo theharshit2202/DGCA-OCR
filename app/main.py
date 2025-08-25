@@ -4,6 +4,7 @@ import json
 import re
 import fitz  # PyMuPDF
 import time
+from pathlib import Path
 from typing import List, Dict, Any
 from fastapi import FastAPI, UploadFile, File, Form, Request
 from fastapi.responses import JSONResponse, HTMLResponse, FileResponse
@@ -72,7 +73,9 @@ templates = Jinja2Templates(directory=_templates_dir)
 
 # ------------- Config -------------
 # Define the checklist fields (edit app/config/fields.json to customize)
-DEFAULT_FIELDS_PATH = "app/config/fields.json"
+# Resolve path relative to this file so the app works regardless of the
+# working directory from which the server is launched.
+DEFAULT_FIELDS_PATH = Path(__file__).resolve().parent / "config" / "fields.json"
 
 # ------------- Models -------------
 class FieldResult(BaseModel):
